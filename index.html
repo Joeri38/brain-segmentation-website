@@ -61,14 +61,12 @@
         
     Deze techniek haalt betere resultaten dan andere machine learning technieken of software pakketten zoals SPM voor segmentatie. Onderstaande tabel uit [<a href="https://www.mdpi.com/2076-3417/9/3/404/htm" target="_blank">2</a>] toont de Dice score voor enkele convolutionele netwerken. Met dit soort netwerken wordt een Dice score bereikt die zelfs hoger ligt dat die voor manuele segmentatie. In de tabel staan ook andere metrieken om de goedheid van de segmentatie te bepalen, maar daar gaan we verder niet op in. </p>
 
-    <img src = "AlexNet.PNG" alt="Kan afbeelding niet weergeven" width = "900px" title="3D Unet resultaten" />
+    <img src = "resultaten.PNG" alt="Kan afbeelding niet weergeven" width = "900px" title="3D Unet resultaten" />
     
     <p> Een ander voordeel van convolutionele netwerken is dat het een oplossing biedt voor het <strong>Partial Volume Effect (PVE)</strong>. Dit effect is een gevolg van de eindige grootte van de voxels in een hersenscan. Als een voxel op de rand ligt tussen witte en grijze stof, dan kan deze beide weefsels bevatten. Een segmentatie zal deze voxel echter in een enkele klasse willen indelen en zo een fout moeten maken. Een oplossing voor dit probleem is <strong>fuzzy clustering</strong>. Dit is een machine learning techniek waarbij een voxel niet toegewezen wordt tot een welbepaalde klasse, maar tot verschillende klassen met een bepaalde waarschijnlijkheid. Zo zal een voxel bijvoorbeeld witte stof zijn met een kans van 70% en grijze stof zijn met een kans van 10%. Merk op dat deze kansen niet optellen tot 100% omdat voor elke klasse de waarschijnlijkheid dat een pixel tot deze klasse behoort onafhankelijk van de andere klassen gebeurt. Een convolutioneel netwerk geeft dezelfde output als in de techniek van fuzzy clustering. Zo vormen convolutionele netwerken een oplossing voor het Partial Volume Effect (PVE). </p>
 
     <h2> Mijn bijdrage </h2>
     
-    <img src="U-net.PNG" alt="Afbeelding kan niet worden geladen" title="U-net architectuur" width = "700px" />
-
     <p> Dit project heb ik gedaan als Externe Mobiliteit B, opleidingsonderdeel van de master Fysica en Sterrenkunde aan de VUB. Hiervoor heb ik 4 weken meegewerkt in de onderzoeksgroep van de afdeling MRI aan het UZ Jette. Het project onderzocht hoe convolutionele netwerken kunnen worden ingezet voor de segmentatie van MRI beelden van de hersenen. Het project begon met een literatuurstudie over convolutionele netwerken en hoe ze toegepast worden op segmentatie van de hersenen. Vervolgens heb ik gewerkt met enkele MRI hersenscans ter beschikking gesteld door het UZ Jette. Deze scans heb ik dan gesegmenteerd met het software pakket SPM12. Deze segmentaties werden gebruikt als "ground truth" om het netwerk te trainen. Vervolgens trainde ik een netwerk geïnspireerd door het artikel in [<a href="https://www.mdpi.com/2076-3417/9/3/404/htm" target="_blank">2</a>]. Dit netwerk is in staat om nieuwe hersenscans te segmenteren en behaalt een Dice score van 0.83. Op deze website bespreek ik hoe dit netwerk gemaakt is en hoe men het zou kunnen verbeteren. </p>
 
     <h2> Overzicht website </h2>
