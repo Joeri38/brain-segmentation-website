@@ -5,7 +5,11 @@
 }
 
 h1 {
+<<<<<<< HEAD
     font-size: 50px;
+=======
+    font-size: 45px;
+>>>>>>> afaade4... initial commit
     font-family: sans-serif;
 }
 
