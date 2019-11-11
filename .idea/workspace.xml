@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be261533-9ba1-4ee6-a361-102e5079b227" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Resultaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/Resultaten.html" afterDir="false" />
-    </list>
+    <list default="true" id="be261533-9ba1-4ee6-a361-102e5079b227" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +49,16 @@
       <workItem from="1572343067056" duration="1233000" />
       <workItem from="1573225096819" duration="6612000" />
       <workItem from="1573299633446" duration="10125000" />
-      <workItem from="1573501200583" duration="48000" />
+      <workItem from="1573501200583" duration="338000" />
     </task>
+    <task id="LOCAL-00001" summary="resultaat 0.83 toevoegen">
+      <created>1573501528020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573501528020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resultaat 0.83 toevoegen" />
+    <option name="LAST_COMMIT_MESSAGE" value="resultaat 0.83 toevoegen" />
   </component>
 </project>
