@@ -5,11 +5,7 @@
 }
 
 h1 {
-<<<<<<< HEAD
-    font-size: 50px;
-=======
     font-size: 45px;
->>>>>>> afaade4... initial commit
     font-family: sans-serif;
 }
 
@@ -43,10 +39,20 @@ header nav ul li a:hover {
     background-color: #565656;
 }
 
-p {
+@media only screen and (min-width: 600px){
+    p {
     padding-left : 340px;
     padding-right : 340px; 
     text-align: justify;
+    }
+}
+
+img {
+    margin-top: 40px;
+}
+
+table {
+    text-align: center;
 }
 
 .verbeteringen {
@@ -73,13 +79,7 @@ p {
     margin-top: 0px;
 }
 
-img {
-    margin-top: 40px;
-}
 
-table {
-    text-align: center;
-}
 
 
 
