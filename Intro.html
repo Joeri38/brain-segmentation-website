@@ -43,6 +43,8 @@
 			</h3>
 		</nav>
 	</header>
+
+	<h2> Deep learning </h2>
 	
 	<p> Deep learning is een onderdeel van wat men Machine Learning noemt in de computerwetenschappen. Dit zijn
 		algoritmes die kunnen leren uit data. Met deep learning bedoelt men dan een subset van deze machine learning
@@ -52,7 +54,7 @@
 		trainen door voor verschillende inputs een gewenste output mee te geven. Zo kan het netwerk een optimale
 		transformatie bepalen van input naar output. </p>
 
-	<img src="deeplearning.png" alt="Kan afbeelding niet laden" title="Deep learning" width="700px" />
+	<img src="deeplearning.png" alt="Kan afbeelding niet laden" title="Deep learning" />
 
 	<p> Als men dit wil toepassen op afbeeldingen gebruikt men het best de zogenoemde convolutionele lagen. Een
 		bekende toepassing hiervan is het herkennen van honden en katten. We gebruiken deze toepassing in deze
@@ -73,7 +75,7 @@
 		<strong>feature map</strong> noemt. De getallen in deze matrix geven aan hoe sterk de filter lijkt op de input
 		matrix, en geeft zo dus weer hoe sterk deze feature voorkomt in de afbeelding. </p>
 
-	<img src="convolutionele laag.png" alt="Kan afbeelding niet laden" title="Convolutionele laag" width="700px" />
+	<img src="convolutionele laag.png" alt="Kan afbeelding niet laden" title="Convolutionele laag" />
 
 	<p> De feature map die we zo bekomen kunnen we als input gebruiken voor een tweede convolutionele laag. Op die
 		manier bekomen we een opeenstapeling van convolutionele lagen. Samen hebben ze dan als functie om features te
@@ -93,7 +95,7 @@
 		target="_blank">1</a>]. </p>
 
 
-	<img src="convNetArchitectuur.png" alt="Kan afbeelding niet laden" title="Convolutionele architectuur" width="700px" />
+	<img src="convNetArchitectuur.png" alt="Kan afbeelding niet laden" title="Convolutionele architectuur" />
 
 	<h2> Training </h2>
 
@@ -134,7 +136,7 @@
 		te zien tussen de twee benen van de U. Deze verbindingen maken het mogelijk om informatie uit de eerste
 		lagen van het netwerk te hergebruiken. </p>
 
-	<img src="U-net.png" alt="Kan afbeelding niet weergeven" title="U-net" width ="700px" />
+	<img src="U-net.png" alt="Kan afbeelding niet weergeven" title="U-net"/>
 
 	<h2> Enkele belangrijke netwerken </h2>
 
@@ -161,7 +163,7 @@
 		lagen. Meer info vindt u in de originele paper in
 		[<a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank">3</a>].</p>
 
-	<img src="AlexNet.PNG" alt="Afbeelding kan niet worden geladen" title="AlexNet architectuur" width="700px"/>
+	<img src="AlexNet.PNG" alt="Afbeelding kan niet worden geladen" title="AlexNet architectuur"/>
 
 	<h3>ZFnet (2013)</h3>
 	<p>Dit netwerk is gemaakt door Matt Zeiler en Rob Fergus verbonden aan NYU. Het netwerk is gebaseerd op AlexNet. In
@@ -170,7 +172,7 @@
 		te analyseren en zo ook te verbeteren. Hun artikel op ArXiv vindt u in
 		[<a href="https://arxiv.org/pdf/1311.2901v3.pdf" target="_blank">4</a>]. </p>
 
-	<img src="ZFnet.png" alt="Afbeelding kan niet worden geladen" title="ZFnet architectuur" width="700px"/>
+	<img src="ZFnet.png" alt="Afbeelding kan niet worden geladen" title="ZFnet architectuur"/>
 
 	<h3>VGG Net (2014) </h3>
 	<p>Dit netwerk gebruikt een kleine 3x3 filter, maar dan met telkens 2 convolutionele lagen die elkaar meteen
@@ -180,7 +182,7 @@
 		betere resultaten dan AlexNet of ZFnet. De geïnteresseerde lezer vindt de originele paper in
 		[<a href="https://arxiv.org/pdf/1409.1556.pdf" target="_blank">5</a>]. </p>
 
-	<img src="VGGnet.png" alt="Afbeelding kan niet worden geladen" title="VGG net architectuur" width="500px"/>
+	<img src="VGGnet.png" alt="Afbeelding kan niet worden geladen" title="VGG net architectuur"/>
 
 	<h3>GoogLeNet (2014) </h3>
 	<p>Dit netwerk introduceerde de <strong>inception module</strong>. In plaats van de lagen in serie te zetten, komen
@@ -189,7 +191,7 @@
 		dan AlexNet en veel sneller getraind kan worden. De originele paper is te vinden in
 		[<a href="https://arxiv.org/pdf/1409.4842.pdf" target="_blank">6</a>]. </p>
 
-	<img src="GoogLeNet.PNG" alt="Afbeelding kan niet worden geladen" title="GoogleNet architectuur" width="1000px"/>
+	<img src="GoogLeNet.PNG" alt="Afbeelding kan niet worden geladen" title="GoogleNet architectuur"/>
 
 	<h3>Microsoft ResNet (2015) </h3>
 	<p>Dit netwerk is opmerkelijk diep en heeft 152 lagen. Op de ImageNet data behaalde het een foutenpercentage van
@@ -200,7 +202,7 @@
 		gradiënt zich sneller kan terugpropageren door het netwerk. De originele paper vindt u in
 		[<a href="https://arxiv.org/pdf/1512.03385.pdf" target="_blank">7</a>]. </p>
 
-	<img src="residualBlock.png" alt="Afbeelding kan niet worden geladen" title="VGG net architectuur" width="400px"/>
+	<img src="residualBlock.png" alt="Afbeelding kan niet worden geladen" title="VGG net architectuur"/>
 	
 	<h3> Resultaten op ImageNet </h3>
 

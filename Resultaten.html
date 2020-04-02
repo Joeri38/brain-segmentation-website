@@ -47,6 +47,8 @@
 			</nav>
 		</header>
 
+    <h2> Werkwijze </h2>
+
 	<p> Het netwerk dat ik gebouwd heb, is een versie van het klassieke 2D U-net in
 		[<a href="https://www.mdpi.com/2076-3417/9/3/404/htm" target="_blank">1</a>], aangepast aan ons probleem. De
 		implementatie van het originele netwerk uit het artikel is te vinden op
@@ -61,8 +63,7 @@
 		waarden tussen 0 en 1. Een voorbeeld van deze continue segmentatie staat hieronder voor slice 80 van volume 1.
 		Rood is grijze stof, groen is witte stof en blauw is CSF. </p>
 
-	<img class="resimg" src="SegmentatieCont.PNG" alt="Kan afbeelding niet laden" title="Continue segmentatie"
-	width="650px">
+	<img class="resimg" src="SegmentatieCont.PNG" alt="Kan afbeelding niet laden" title="Continue segmentatie"/>
 
 	<p> Om deze continue waarden om te zetten in een discrete voorspelling voor elke pixel is een
 		<strong>discretisatie algoritme</strong> nodig. Het is niet triviaal om dit algoritme op te stellen. Intuïtief
@@ -83,8 +84,7 @@
 		gebruik gemaakt van alle informatie die de continue segmentie geeft. Uiteindelijk werden met het discretisatie
 		algoritme van hierboven beelden verkregen zoals op de afbeelding hieronder.</p>
 
-	<img class ="resimg" src="SegmentatieDisc.PNG" alt="Kan afbeelding niet laden" title="Discrete segmentatie"
-	width = "650px">
+	<img class ="resimg" src="SegmentatieDisc.PNG" alt="Kan afbeelding niet laden" title="Discrete segmentatie"/>
 
 	<p> Er is te zien dat de discrete segmentatie een plek grijze stof voorspelt op een plek waar SPM enkel achtergrond
 		aangeeft. Op de continue segmentatie is te zien dat hier de kans op grijze stof eerder klein is. Een ander
