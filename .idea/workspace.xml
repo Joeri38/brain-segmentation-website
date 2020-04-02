@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be261533-9ba1-4ee6-a361-102e5079b227" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -66,7 +65,7 @@
       <workItem from="1573225096819" duration="6612000" />
       <workItem from="1573299633446" duration="10125000" />
       <workItem from="1573501200583" duration="482000" />
-      <workItem from="1585847116421" duration="4671000" />
+      <workItem from="1585847116421" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="resultaat 0.83 toevoegen">
       <created>1573501528020</created>
@@ -96,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585854446227</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed &lt;p&gt; to be responsive">
+      <created>1585864822797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585864822797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed &lt;p&gt; to be responsive">
+      <created>1585864999607</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585864999607</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +133,7 @@
     <MESSAGE value="verander PNG naar png" />
     <MESSAGE value="changed viewport" />
     <MESSAGE value="changed width to percentage in U-net" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed width to percentage in U-net" />
+    <MESSAGE value="changed &lt;p&gt; to be responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed &lt;p&gt; to be responsive" />
   </component>
 </project>

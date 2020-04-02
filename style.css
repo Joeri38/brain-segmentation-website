@@ -39,12 +39,17 @@ header nav ul li a:hover {
     background-color: #565656;
 }
 
+p {
+    padding-left : 15px;
+    padding-right : 15px;
+    text-align: justify;
+    }
+
 @media only screen and (min-width: 768px){
     p {
     padding-left : 340px;
     padding-right : 340px; 
     text-align: justify;
-        color: white;
     }
 }
 
