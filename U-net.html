@@ -5,10 +5,10 @@
 	<title>
 	U-net
 	</title>
-	<link rel="stylesheet" type="text/css"
-	href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="shortcut icon" href = "Logo.png"/>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -41,21 +41,19 @@
 
 <h2> Wat is U-net? </h2>
 
-
-
 <p> U-net is een <strong>Fully Convolutional Network (FCN)</strong> dat gebruikt kan worden voor semantische
 	segmentatie. Dit netwerk bevat geen fully connected lagen, maar enkel convolutionele. In het algemeen heeft een FCN
 	veel trainingsdata nodig. Daarom is het niet ideaal voor medische beeldanalyse, waar men slechts een beperkt aantal
 	gesegmenteerde beelden heeft. U-net bracht hier verandering in. Dit Fully Convolutional Netwerk (FCN) heeft slechts
-	een beperkt aantal trainingsbeelden nodig om goede resultaten te bekomen. Het netwerk werd daarom zeer populair in
+	een beperkt aantal trainingsbeelden nodig om goede resultaten te bekomen. Daarom werd het zeer populair in
 	de medische wereld. De geïnteresseerde lezer verwijzen we door naar de originele paper van Olaf Ronneberger,
 	Philipp Fischer en Thomas Brox (2015) [<a href="https://arxiv.org/pdf/1505.04597.pdf" target="_blank">1</a>]. </p>
 
-<img src="U-net.png" alt="Afbeelding kan niet worden geladen" title="U-net architectuur" width = "680"/>
+<img src="U-net.png" alt="Schema van de U-net architectuur" title="U-net architectuur" width = "680"/>
 
 <h2> Mijn inspiratie</h2>
 
-<p> Het netwerk dat ik gebouwd heb is gebaseerd op een artikel van M. Kolarik et al. uit januari 2019
+<p> Het netwerk dat ik gemaakt heb is gebaseerd op een artikel van M. Kolarik et al. uit januari 2019
 	[<a href="https://www.mdpi.com/2076-3417/9/3/404/htm" target="_blank">2</a>]. De code horende bij dit artikel is
 	te vinden op <a href="https://github.com/mrkolarik/3D-brain-segmentation" target = "_blank"> GitHub</a>. In hun
 	artikel combineerden de auteurs twee uitbreidingen op het originele U-net in
@@ -70,7 +68,7 @@
 	elk epoch werd zo het hele hersenvolume doorlopen. De resultaten voor de verschillende netwerken staan in de
 	onderstaande figuur. </p>
 
-<img alt="Kan afbeelding niet weergeven" src="resultaten.png" title="3D Unet resultaten" width="823"/>
+<img alt="Resultaten van verschillende implementaties van U-net" src="resultaten.png" title="3D Unet resultaten" width="823"/>
 
 <p> De resultaten van het netwerk werden ook vergeleken met die van een manuele segmentatie door een radioloog. Als
 	ground truth voor dit experiment gebruikte men een segmentatie die met uitzonderlijke zorg en extra aandacht door

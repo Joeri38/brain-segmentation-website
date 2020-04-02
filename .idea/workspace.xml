@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be261533-9ba1-4ee6-a361-102e5079b227" name="Default Changelist" comment="" />
+    <list default="true" id="be261533-9ba1-4ee6-a361-102e5079b227" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U-net.html" beforeDir="false" afterPath="$PROJECT_DIR$/U-net.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="brainSegmentation-website" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +59,7 @@
       <workItem from="1573225096819" duration="6612000" />
       <workItem from="1573299633446" duration="10125000" />
       <workItem from="1573501200583" duration="482000" />
-      <workItem from="1585847116421" duration="1108000" />
+      <workItem from="1585847116421" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="resultaat 0.83 toevoegen">
       <created>1573501528020</created>
