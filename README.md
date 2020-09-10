@@ -1,3 +1,5 @@
-# brainSegmentation-website
+# Website brain segmentation with U-net
 
-Dit is de website die hoort bij mijn stage in het UZ Jette. In deze stage maakte ik een convolutioneel neuraal netwerk voor het segmenteren van hersenbeelden.
+This is the repo for a website I made for in internship in UZ Jette in the summer of 2019. In this internship, I made a U-net convolutional neural network to segment MRI brain images into grey matter, white matter and cerebrospinal fluid (CSF). 
+
+https://joeri38.github.io/brain-segmentation-website/
